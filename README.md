@@ -1,5 +1,5 @@
-#GitHub Pages URL:
+GitHub Pages URL:
 https://jmablanco.github.io/
 
-#TerpConnect URL:
+TerpConnect URL:
 
