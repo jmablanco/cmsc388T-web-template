@@ -3,6 +3,11 @@ version: '3'
 services:
   nodejs:
     #fill out the configuration here
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: website_johnb
+    container_name: website_johnb
     networks:
       - app-network
   
@@ -28,7 +33,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: ~/Documents/CLASSES/CMSC388T/cmsc388t_winter21/Projects/P3/cmsc388T-web-template
       o: bind
 
 networks:
