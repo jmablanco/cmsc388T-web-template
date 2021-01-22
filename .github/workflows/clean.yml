@@ -15,4 +15,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
-            rm -rf TestRepo
+            rm -rf jmablanco.github.io
