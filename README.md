@@ -1,1 +1,5 @@
-# cmsc388T-web-template
+#GitHub Pages URL:
+https://jmablanco.github.io/
+
+#TerpConnect URL:
+
